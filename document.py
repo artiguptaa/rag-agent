@@ -1,6 +1,9 @@
-# user.py
+# document.py
 
-class User:
-    def __init__(self, name, email):
-        self.name = name
-        self.email = email
+import email
+
+
+class Document:
+    def __init__(self, document_id, document_name):
+        self.document_id = document_id
+        self.document_name = document_name
